@@ -1,0 +1,30 @@
+{
+  "name": "@ex-machine/node11",
+  "version": "11.0.2",
+  "description": "A wrapper that allows Node 11 to be installed together with other Node versions",
+  "main": "index.js",
+  "bin": {
+     "node11": "bin/node"
+   },
+  "scripts": {
+    "preinstall": "node preinstall.js 11",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ex-machine/node-wrapper.git"
+  },
+  "keywords": [
+    "node",
+    "version"
+  ],
+  "author": "ex-machine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ex-machine/node-wrapper/issues"
+  },
+  "homepage": "https://github.com/ex-machine/node-wrapper",
+  "dependencies": {
+    "node-bin-setup": "^1.0.6"
+  }
+}
