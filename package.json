@@ -1,0 +1,30 @@
+{
+  "name": "@ex-machine/node17",
+  "version": "17.0.2",
+  "description": "A wrapper that allows Node 17 to be installed together with other Node versions",
+  "main": "index.js",
+  "bin": {
+     "node17": "bin/node"
+   },
+  "scripts": {
+    "preinstall": "node preinstall.js 17",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ex-machine/node-wrapper.git"
+  },
+  "keywords": [
+    "node",
+    "version"
+  ],
+  "author": "ex-machine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ex-machine/node-wrapper/issues"
+  },
+  "homepage": "https://github.com/ex-machine/node-wrapper",
+  "dependencies": {
+    "node-bin-setup": "^1.0.6"
+  }
+}
